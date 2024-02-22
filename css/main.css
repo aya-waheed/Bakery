@@ -1,0 +1,712 @@
+*{
+
+    margin: 0;
+}
+
+body{
+
+    
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+
+
+
+}
+
+.clr{
+
+    clear: both;
+}
+
+#home{
+
+background-image: url(../images/drew-coffman-1872.jpg);
+background-size: 100% 100%;
+height: 100vh;
+
+
+}
+
+#home .caption{
+
+  
+  text-align: center;
+  padding-top: 250px;
+  color: white;
+
+}
+
+#home .caption h1{
+      
+
+    font-size:76px;
+
+} 
+
+
+
+#home .caption h4{
+
+    padding: 20px 0;
+
+    font-size:22px;
+
+
+
+}
+
+#home .caption p{
+     
+
+    padding: 30px 20px;
+
+    font-size:24px;
+
+
+}
+
+#home .caption .btn1 , #home .caption .btn2{
+      
+    /* padding: 15px 15px; */
+    color: white;
+    border-radius: 4px;
+
+    
+
+}
+
+#home .caption .btn1{
+
+    background-color: rgb(157, 123, 77);
+    border: none;
+    padding: 20px 17px;
+}
+
+#home .caption .btn2{
+
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 18px 17px;
+}
+
+
+
+#home .navbar{
+
+    /* width: 100%; */
+    
+
+    background-color: rgba(0, 0, 0, 0.258);
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    
+
+
+}
+
+
+#home .navbar img{
+
+    float: left;
+    width: 200px;
+    padding: 20px 90px;
+}
+
+#home .navbar ul{
+
+    list-style: none;
+    float: right;
+}
+
+#home .navbar ul li{
+
+display: inline-block;
+padding: 30px 30px;
+color: white;
+
+}
+
+#home .navbar ul a{
+
+    text-decoration: none;
+    color: white;
+}
+
+
+#about{
+      
+/* 
+    width: 100%; */
+    padding: 80px 80px;
+    
+    
+
+
+}
+
+
+
+
+
+
+#about .about-img{
+
+    width: 40%;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: middle;
+
+
+}
+
+
+
+
+#about .about-img img{
+
+
+    width: 100%;
+
+
+}
+
+
+
+
+
+#about .about-info{
+
+    width: 50%;
+    
+
+
+    /* float: right; */
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 90px;
+    
+
+    
+    
+
+
+}
+
+
+
+#about .about-info ul{
+
+    list-style: none;
+
+    padding: 30px 90px;
+
+    line-height: 50px;
+
+    font-size: 17px;
+
+
+
+}
+
+#about .about-info ul .li1 img{
+    border-radius: 50%;
+
+
+} 
+
+#about .about-info ul .li2 img{
+    border-radius: 50%;
+
+
+} 
+
+
+
+#about .about-info ul .li3 img{
+    border-radius: 50%;
+
+
+} 
+
+
+#about .about-info ul .li4 img{
+    border-radius: 50%;
+
+
+} 
+
+#about .about-info h2{
+
+    padding: 40px 90px;
+    font-size:32px;
+
+
+}
+
+#about .about-info p{
+
+    padding: 0 90px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.697);
+    font-size: 17px;
+}
+
+ #location{
+
+    
+    /* width: 100%;  */
+
+background-color: rgba(245, 245, 245, 0.527);
+
+}
+    
+    
+
+
+
+#location .location-info{
+
+    width: 40%;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 70px;
+}
+
+#location .location-img{
+
+    
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    /* float: right; */
+}
+
+#location .location-img img{
+
+
+
+    width: 90%;
+    padding-top: 80px;
+
+
+}
+
+#location .location-info h2{
+
+    padding: 40px 40px;
+    font-size: 32px;
+    
+
+}
+
+
+#location .location-info .p1 , #location .location-info .p2{
+
+  line-height: 32px;
+  padding: 10px 40px ;
+  color: rgba(0, 0, 0, 0.697);
+  font-size: 17px;
+
+
+}
+
+#Our-baking{
+
+    /* background-color: brown; */
+     width: 100%; 
+    /* height: 100%; */
+}
+#Our-baking .baking-info{
+
+    /* background-color: blueviolet; */
+    /* width: 100%; */
+    text-align: center;
+    padding: 50px 60px;
+
+
+}
+
+#Our-baking .baking-info h2{
+    padding: 20px 30px;
+    font-size: 30px;
+    
+
+
+
+}
+
+#Our-baking .baking-info p{
+
+    color: rgba(0, 0, 0, 0.697);
+    font-size: 17px;
+
+}
+
+#Our-baking .baking-meals{
+
+    /* background-color:blue ; */
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    
+
+
+}
+
+ #Our-baking .baking-meals img{
+
+    width:70%;
+    padding: 20px 10px;
+} 
+
+#Our-baking .baking-meals h3{
+
+    padding: 10px 20px;
+    font-size: 22px;
+    
+
+}
+
+#Our-baking .baking-meals p{
+
+    padding: 0 20px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 17px;
+
+
+}
+
+
+#contact{
+
+    /* width: 100%; */
+    /* height: 100%;  */
+    background-color: rgba(245, 245, 245, 0.527);
+}
+
+#contact .contact-info{
+
+    
+    float: left;
+    padding: 90px 90px;  
+    width: 40%;
+}
+
+#contact .contact-img{
+
+    
+    width: 40%;
+    float: right;
+    
+    
+}
+
+#contact .contact-img img{
+
+    width: 90%;
+    padding: 90px 30px;
+}
+
+#contact .contact-info h2{
+
+    padding: 30px 50px;
+    font-size: 32px;
+}
+
+#contact .contact-info p{
+
+    line-height: 32px;
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.697);
+    font-size: 17px;
+
+}
+
+#contact .contact-info h5{
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.697);
+    font-size: 17px;
+
+
+
+}
+
+
+#contact .contact-info ul{
+
+    list-style: none;
+    line-height: 32px;
+    padding: 20px 20px;
+    font-size: 17px;
+}
+
+ #contact .contact-info .li1 img{
+
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.697);
+
+} 
+
+#contact .contact-info .li2 img{
+
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.697);
+
+} 
+
+#contact .contact-info .li3 img{
+
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.697);
+
+} 
+
+#contact .contact-info .li4 img{
+
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.697);
+
+} 
+
+#inform{
+  
+    /* width: 100%; */
+    /* height: 100%; */
+   background-color: #403D38  ;  
+
+    padding-top: 80px;
+    
+
+}
+
+#inform .aboutt-us{
+
+    width: 20%;
+    float: left;
+     padding: 40px 50px; 
+}
+
+#inform .aboutt-us h3{
+
+    padding: 20px 20px;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+#inform .aboutt-us .p1 , #inform .aboutt-us .p2{
+
+    line-height: 32px;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.463);
+
+
+
+}
+
+#inform .special{
+
+    width: 20%;
+    float: left;
+    padding: 40px 40px; 
+
+
+
+}
+
+
+#inform .special h3{
+
+    padding: 20px 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+
+#inform .special ul{
+
+    line-height: 32px;
+
+    padding: 10px 20px;
+
+    color: rgba(255, 255, 255, 0.463);
+
+
+
+}
+
+#inform .special ul li{
+
+    border-bottom: rgba(255,255,255,0.05) solid 1px;
+}
+
+#inform .special ul .li5{
+
+    border-bottom: none;
+}
+
+#inform .opening-hours ul li{
+
+    border-bottom: rgba(255,255,255,0.05) solid 1px;
+
+}
+
+#inform .opening-hours ul .li6{
+
+    border-bottom: none;
+
+}
+
+#inform .cont-details ul li{
+ 
+    border-bottom: rgba(255,255,255,0.05) solid 1px;
+
+
+}
+
+#inform .cont-details ul .li4{
+
+    border-bottom: none;
+
+}
+
+
+
+
+#inform .opening-hours{
+
+    width: 15%;
+
+    float: left;
+    padding: 40px 40px; 
+
+}
+
+#inform .opening-hours h3{
+
+    padding: 20px 20px;
+    color: white;
+    font-size: 18px;
+
+}
+
+#inform .opening-hours ul{
+
+    line-height: 32px;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.463);
+
+}
+
+
+
+#inform .cont-details{
+
+    background-image: url(../images/contact-details-map.png);
+    background-size: 70%; 
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    width: 20%;
+    float: left;
+    padding: 40px 40px; 
+
+
+
+}
+
+
+#inform .cont-details h3{
+       
+    padding: 20px 20px;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+#inform .cont-details ul{
+
+    line-height: 32px;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.463);
+
+
+
+}
+
+#inform .special ul , #inform .opening-hours ul , #inform .cont-details ul{
+
+    list-style: none;
+}
+
+#inform .cont-details .li1 img{
+    border-radius: 50%;
+}
+
+#inform .cont-details .li2 img{
+    border-radius: 50%;
+}
+
+#inform .cont-details .li3 img{
+    border-radius: 50%;
+}
+
+#inform .cont-details .li4 img{
+    border-radius: 50%;
+}
+
+
+#logo{
+
+  background-color:#353330;    
+    /* width: 100%; */
+    
+    padding-top: 80px;  
+    
+}
+
+#logo .logo-img{
+
+    
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#logo .logo-info{
+
+    
+    width: 100%;
+    text-align: center;
+      padding: 30px 0;  
+
+
+}
+
+#logo .logo-info p{
+
+    padding: 20px 20px;
+    color: rgba(255, 255, 255, 0.463);
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
